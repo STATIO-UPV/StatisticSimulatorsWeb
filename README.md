@@ -33,7 +33,7 @@ Los siguientes programas deben estar instalados:
 3. En **Repository URL**, introducir la dirección de este repositorio:
 
 ```
-https://github.com/AlbertoAltozano/Plantilla_proyecto_12Nov
+https://github.com/AlbertoAltozano/SimuladoresEstadistica
 ```
 
 4. Elegir el nombre de la carpeta que queremos crear para el proyecto (**Project Directory Name**) y su ubicación (**Browse…**).
