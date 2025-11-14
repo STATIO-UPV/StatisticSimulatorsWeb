@@ -227,7 +227,7 @@ Debe ser `main`.
 #### a) Si has creado/modificado solo tu app:
 
 ```bash
-git add ./simuladores/nombre_carpeta_mi_app
+git add .
 ```
 
 #### b) Si has añadido librerías nuevas en R:
@@ -237,12 +237,6 @@ renv::snapshot()
 ```
 
 Luego:
-
-```bash
-git add .
-```
-
-#### c) Si has modificado la web de Quarto:
 
 ```bash
 git add .
@@ -277,9 +271,19 @@ git push
 # Antes de trabajar
 git pull
 
+# Duplicar la carpeta template en ./simuladores/ para empezar a trabajar a desarrollar shinyapp en app.R
+# Editar index.qmd
+```
+```
+# Al acabar de trabajar con la shinyapp
+shinylive::export("./simuladores/template/appr", "./simuladores/template/appsite")
+```
+```
+# Al ir a subir cambios a git
+quarto render
+
 # Añadir cambios
-git add ./simuladores/mi_app
-# o git add .
+git add .
 
 # Guardar cambios
 git commit -m "Descripción"
