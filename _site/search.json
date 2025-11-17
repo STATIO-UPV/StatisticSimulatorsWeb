@@ -1,17 +1,59 @@
 [
   {
-    "objectID": "simuladores/metodografico/index.html",
-    "href": "simuladores/metodografico/index.html",
-    "title": "Método gráfico",
+    "objectID": "simuladores/errores/index.html",
+    "href": "simuladores/errores/index.html",
+    "title": "Errores tipo I y II",
     "section": "",
-    "text": "App: https://statisticsjamarmo.shinyapps.io/MetodoGrafico2/\nCódigo en GitHub: TBD\nAutores: Adrian Colomer, Vicent Giner\n\n\nDescripción\nTBD"
+    "text": "App: https://jramonnavarro.shinyapps.io/TypeIvsTypeIIError/\nCódigo en GitHub: TBD\nAutores: Jose Ramón Navarro\n\n\nDescripción\nTBD"
   },
   {
-    "objectID": "simuladores/distribuciones/index.html",
-    "href": "simuladores/distribuciones/index.html",
-    "title": "Distribuciones continuas y discretas",
+    "objectID": "categorias/investigacion-operativa.html",
+    "href": "categorias/investigacion-operativa.html",
+    "title": "Investigación Operativa",
     "section": "",
-    "text": "App: https://ddhervas.shinyapps.io/distribuciones/\nCódigo en GitHub: TBD\nAutores: David Hervás\n\n\nDescripción\nSimulador para explorar las funciones de probabilidad y de densidad de variables dicretas (Binomial, Binomial negativa, Poisson e Hipergeométrica) y continuas (Normal y Exponencial)"
+    "text": "Método gráfico\n\n\n\nInvestigación Operativa\n\n\n\nSimulador para explorar visualmente el método gráfico de programación lineal\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categorias/estadistica-descriptiva.html",
+    "href": "categorias/estadistica-descriptiva.html",
+    "title": "Estadística descriptiva",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "categorias/distribuciones.html",
+    "href": "categorias/distribuciones.html",
+    "title": "Distribuciones",
+    "section": "",
+    "text": "Distribuciones continuas y discretas\n\n\n\nDistribuciones\n\n\n\nSimulador para explorar las funciones de probabilidad y de densidad\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Statio está desarrollado en el marco del proyecto “Desarrollo y validación de simuladores virtuales para fomentar el aprendizaje activo en el ámbito de la estadística y la investigación operativa”, impulsado por el Departamento de Estadística e Investigación Operativa Aplicadas y Calidad (DEIOAC) de la Universitat Politècnica de València (UPV). Está financiado por el Instituto de Ciencias de la Educación (ICE) mediate la convocatoria de Proyectos de Innovación y Mejora Educativa 2025 (PIME/25-26/562)."
+  },
+  {
+    "objectID": "about.html#participantes",
+    "href": "about.html#participantes",
+    "title": "About",
+    "section": "Participantes",
+    "text": "Participantes\n\nJavier Marín Morales (Coordinador)\n\nContacto: jamarmo@upv.es\n\nAlberto Altozano Fernandez\nVicente Chirivella González\nAdrian Colomer Granero\nFortunato Crespo Abril\nAna Maria Debon Aucejo\nJulia Domingo Ajenjo\nVicent Giner Bosch\nDavid Hervas Marin\nMaría Lorduy Alós\nJoaquin Martinez Minaya\nJosé Ramón Navarro Cerdan\nFrancisco Sanchez Saez\nManuel Zarzo Castelló"
+  },
+  {
+    "objectID": "categorias/econometria.html",
+    "href": "categorias/econometria.html",
+    "title": "Econometría",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "categorias/estadistica-inferencial.html",
+    "href": "categorias/estadistica-inferencial.html",
+    "title": "Estadística inferencial",
+    "section": "",
+    "text": "ANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nErrores tipo I y II\n\n\n\nEstadística inferencial\n\n\n\nSimulador para explorar cómo varian los errores cambiando las hipótesis y alpha\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemplate\n\n\n\nEstadística inferencial\n\n\n\nEsta es la template con la que diseñar los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -39,7 +81,7 @@
     "href": "index.html#estadística-inferencial",
     "title": "STATIO",
     "section": "Estadística inferencial",
-    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nErrores tipo I y II\n\n\nSimulador para explorar cómo varian los errores cambiando las hipótesis y alpha\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nErrores tipo I y II\n\n\nSimulador para explorar cómo varian los errores cambiando las hipótesis y alpha\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemplate\n\n\nEsta es la template con la que diseñar los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#econometría",
@@ -56,59 +98,17 @@
     "text": "Investigación Operativa\n\n\n\n\n\n\n\n\n\n\nMétodo gráfico\n\n\nSimulador para explorar visualmente el método gráfico de programación lineal\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "categorias/estadistica-inferencial.html",
-    "href": "categorias/estadistica-inferencial.html",
-    "title": "Estadística inferencial",
+    "objectID": "simuladores/distribuciones/index.html",
+    "href": "simuladores/distribuciones/index.html",
+    "title": "Distribuciones continuas y discretas",
     "section": "",
-    "text": "ANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nErrores tipo I y II\n\n\n\nEstadística inferencial\n\n\n\nSimulador para explorar cómo varian los errores cambiando las hipótesis y alpha\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "App: https://ddhervas.shinyapps.io/distribuciones/\nCódigo en GitHub: TBD\nAutores: David Hervás\n\n\nDescripción\nSimulador para explorar las funciones de probabilidad y de densidad de variables dicretas (Binomial, Binomial negativa, Poisson e Hipergeométrica) y continuas (Normal y Exponencial)"
   },
   {
-    "objectID": "categorias/econometria.html",
-    "href": "categorias/econometria.html",
-    "title": "Econometría",
+    "objectID": "simuladores/metodografico/index.html",
+    "href": "simuladores/metodografico/index.html",
+    "title": "Método gráfico",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Statio está desarrollado en el marco del proyecto “Desarrollo y validación de simuladores virtuales para fomentar el aprendizaje activo en el ámbito de la estadística y la investigación operativa”, impulsado por el Departamento de Estadística e Investigación Operativa Aplicadas y Calidad (DEIOAC) de la Universitat Politècnica de València (UPV). Está financiado por el Instituto de Ciencias de la Educación (ICE) mediate la convocatoria de Proyectos de Innovación y Mejora Educativa 2025 (PIME/25-26/562)."
-  },
-  {
-    "objectID": "about.html#participantes",
-    "href": "about.html#participantes",
-    "title": "About",
-    "section": "Participantes",
-    "text": "Participantes\n\nJavier Marín Morales (Coordinador)\n\nContacto: jamarmo@upv.es\n\nAlberto Altozano Fernandez\nVicente Chirivella González\nAdrian Colomer Granero\nFortunato Crespo Abril\nAna Maria Debon Aucejo\nJulia Domingo Ajenjo\nVicent Giner Bosch\nDavid Hervas Marin\nMaría Lorduy Alós\nJoaquin Martinez Minaya\nJosé Ramón Navarro Cerdan\nFrancisco Sanchez Saez\nManuel Zarzo Castelló"
-  },
-  {
-    "objectID": "categorias/distribuciones.html",
-    "href": "categorias/distribuciones.html",
-    "title": "Distribuciones",
-    "section": "",
-    "text": "Distribuciones continuas y discretas\n\n\n\nDistribuciones\n\n\n\nSimulador para explorar las funciones de probabilidad y de densidad\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categorias/estadistica-descriptiva.html",
-    "href": "categorias/estadistica-descriptiva.html",
-    "title": "Estadística descriptiva",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "categorias/investigacion-operativa.html",
-    "href": "categorias/investigacion-operativa.html",
-    "title": "Investigación Operativa",
-    "section": "",
-    "text": "Método gráfico\n\n\n\nInvestigación Operativa\n\n\n\nSimulador para explorar visualmente el método gráfico de programación lineal\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "simuladores/errores/index.html",
-    "href": "simuladores/errores/index.html",
-    "title": "Errores tipo I y II",
-    "section": "",
-    "text": "App: https://jramonnavarro.shinyapps.io/TypeIvsTypeIIError/\nCódigo en GitHub: TBD\nAutores: Jose Ramón Navarro\n\n\nDescripción\nTBD"
+    "text": "App: https://statisticsjamarmo.shinyapps.io/MetodoGrafico2/\nCódigo en GitHub: TBD\nAutores: Adrian Colomer, Vicent Giner\n\n\nDescripción\nTBD"
   }
 ]
