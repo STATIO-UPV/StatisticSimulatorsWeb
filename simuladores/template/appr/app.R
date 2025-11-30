@@ -16,10 +16,95 @@ if (FALSE) {
 
 showparams <- TRUE #change this to FALSE if no parameters are needed
 
+texts <- list( 
+  title = c( 
+  ES = "Título de tu aplicación", 
+  EN = "Application Title", 
+  VAL = "Títol de la teua aplicació" ), 
+  explanation = c( 
+    ES = "Breve explicación de la aplicación.", 
+    EN = "Short explanation of the application.", 
+    VAL = "Breu explicació de l'aplicació." ), 
+  button_parameters = c( 
+    ES = "Parámetros", 
+    EN = "Parameters", 
+    VAL = "Paràmetres" ), 
+  text_downmenu= c( 
+    ES = "1. Tu menú desplegable", 
+    EN= "2. Your dropdown menu", 
+    VAL= "3. El teu menú desplegable" ), 
+  dropdown_label = c( 
+    ES = "Título del menú desplegable", 
+    EN = "Title of drop-down menu", 
+    VAL = "Títol del menú desplegable" ), 
+  option1 = c( 
+    ES = "OPCIÓN 1", 
+    EN = "OPTION 1", 
+    VAL = "OPCIÓ 1" ), 
+  option2 = c( 
+    ES = "OPCIÓN 2", 
+    EN = "OPTION 2", 
+    VAL = "OPCIÓ 2" ), 
+  slider1= c( 
+    ES = "BARRA DESLIZANTE 1", 
+    EN= "SLIDER 1", 
+    VAL= "Barra lliscant 1" ), 
+  slider2= c( 
+    ES = "BARRA DESLIZANTE 2", 
+    EN= "SLIDER 2", 
+    VAL= "Barra lliscant 2" ), 
+  slider3= c( 
+    ES = "BARRA DESLIZANTE 3", 
+    EN= "SLIDER 3", 
+    VAL= "Barra lliscant 3" ), 
+  slider4= c( 
+    ES = "BARRA DESLIZANTE 4", 
+    EN= "SLIDER 4", 
+    VAL= "Barra lliscant 4" ), 
+  slider5= c( 
+    ES = "BARRA DESLIZANTE 5", 
+    EN= "SLIDER 5", 
+    VAL= "Barra lliscant 5" ), 
+  slider6= c( 
+    ES = "BARRA DESLIZANTE 6", 
+    EN= "SLIDER 6", 
+    VAL= "Barra lliscant 6" ), 
+  panel1 = c( 
+    ES = "Panel 1", 
+    EN = "Panel 1", 
+    VAL = "Panell 1" ), 
+  panel2 = c( 
+    ES = "Panel 2", 
+    EN = "Panel 2", 
+    VAL = "Panell 2" ), 
+  panel3 = c( 
+    ES = "Panel 3", 
+    EN = "Panel 3", 
+    VAL = "Panell 3" ), 
+  resultsMessage = 
+    c( 
+      ES = "AÑADE LOS RESULTADOS QUE QUIERAS", 
+      EN = "ADD ANY RESULTS YOU WANT", 
+      VAL = "AFIG ELS RESULTATS QUE VULGUES" ), 
+  credits= c( 
+    ES= "Aplicación realizada para el proyecto docente de Javier Marín Morales. 
+    Concurso a PPL C03/24, código de la plaza 7266.", 
+    EN= "Application developed for Javier Marín Morales' teaching project. 
+    PPL C03/24 competition, position code 7266. ENG", 
+    VAL= "Aplicació realitzada per al projecte docent de Javier Marín Morales. 
+    Concurs a *PPL C03/24, codi de la plaça 7266." )
+  )
 ui <- fluidPage(
   
   useShinyjs(),
   
+  absolutePanel(
+  top = 10, right = 10, fixed = TRUE,
+  actionButton("lang_es", "ES"),
+  actionButton("lang_en", "EN"),
+  actionButton("lang_va", "VAL")
+),
+
   # --------------------------
   # 1. CSS. This is for style the template, do not touch. 
   tags$head(
