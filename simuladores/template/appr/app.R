@@ -94,6 +94,8 @@ texts <- list(
     VAL= "Aplicació realitzada per al projecte docent de Javier Marín Morales. 
     Concurs a *PPL C03/24, codi de la plaça 7266." )
   )
+
+  tr <- function(id, lang) { texts[[id]][[lang]] }
 ui <- fluidPage(
   
   useShinyjs(),
@@ -217,38 +219,20 @@ div(id="sidebarWrapper", class= "closed",
       div(
         
         #Here you can add as many parameters, menus, slides and titles as you may need. 
-        
-        h5("This section is to add as many parameters as you need..."),
-        h4("1. Drop-down menu"),
-        selectInput("server_id", "Title of drop-down menu",
-                    choices = c("OPTION 1", "OPTION 2")),
+        h4(textOutput("text_downmenu")), uiOutput("dropdown_ui"),
         
         # Sliders only if OPTION 1 is selected in dropdown. You can delete one and only select sliders if needed.
         # This is the way to link dropdown menus to parameters and other functions.
-        conditionalPanel(
-          condition = "input.server_id == 'OPTION 1'",
-          h4("2. Slider"),
-          sliderInput("sliderId", "Title of parameter", value = 30, min = 1, max = 100),
-          
-          h4("3. Other_Slider"),
-          sliderInput("sliderId2", "Title of parameter", value = 30, min = 1, max = 100),
-          
-          h4("4. Other_Slider"),
-          sliderInput("sliderId3", "Title of parameter", value = 30, min = 1, max = 100)
-        ),
-        
-        # Sliders only if OPTION 1 is selected in dropdown. 
-        conditionalPanel(
-          condition = "input.server_id == 'OPTION 2'",
-          h4("5. Slider"),
-          sliderInput("sliderId4", "Title of parameter", value = 10, min = 1, max = 20),
-          
-          h4("6. Other_Slider"),
-          sliderInput("sliderId5", "Title of parameter", value = 1, min = 1, max = 10),
-          
-          h4("7. Other_Slider"),
-          sliderInput("sliderId6", "Title of parameter", value = 30, min = 1, max = 70)
-        )
+        conditionalPanel( 
+          condition = "input.server_id == 'opt1'", 
+          uiOutput("slider1_ui"), 
+          uiOutput("slider2_ui"), 
+          uiOutput("slider3_ui") ), 
+        conditionalPanel( 
+          condition = "input.server_id == 'opt2'", 
+          uiOutput("slider4_ui"), 
+          uiOutput("slider5_ui"), 
+          uiOutput("slider6_ui") )
       )
     }
 ),
@@ -272,7 +256,7 @@ div(id="contentWrapper",
           width = 12,
           div(
             style="text-align: center; margin: 0;",
-            h2("Title Of Your App", style="margin: 0 0 5px 0;")
+            h2(textOutput("title"), style="margin: 0 0 5px 0;")
           )
         )
       ),
@@ -299,8 +283,7 @@ div(id="contentWrapper",
             margin-left: 15px;
             margin-right: 15px;
           ",
-            h4("This is going to be a short explanation about the application/simulator.",
-               style="margin: 0;")
+            uiOutput("explanation")
           )
         )
       )
@@ -374,8 +357,42 @@ server <- function(input, output) {
     shinyjs::toggleClass(id = "contentWrapper", class = "shifted")
   })
   
+  language <- reactiveVal("ES") 
+  observeEvent(input$lang_es, { language("ES") }) 
+  observeEvent(input$lang_en, { language("EN") }) 
+  observeEvent(input$lang_va, { language("VAL") })
 
+  output$title <- renderText({ tr("title", language()) })
+  output$explanation <- renderUI({ HTML(tr("explanation", language())) })
+  output$panel1_title <- renderText({ tr("panel1", language()) })
+  output$credits <- renderUI({ HTML(tr("credits", language())) })
+  output$text_downmenu <- renderText({ tr("text_downmenu", language()) })
+  output$slider1_ui <- renderUI({
+    sliderInput("sliderId", tr("slider1", language()), min = 1, max = 100, value = 30)
+  })
+  output$slider2_ui <- renderUI({
+    sliderInput("sliderId2", tr("slider2", language()), min = 1, max = 100, value = 30)
+  })
+  output$slider3_ui <- renderUI({
+    sliderInput("sliderId3", tr("slider3", language()), min = 1, max = 100, value = 30)
+  })
   
+  output$slider4_ui <- renderUI({
+    sliderInput("sliderId4", tr("slider4", language()), min = 1, max = 20, value = 10)
+  })
+  output$slider5_ui <- renderUI({
+    sliderInput("sliderId5", tr("slider5", language()), min = 1, max = 10, value = 5)
+  })
+  output$slider6_ui <- renderUI({
+    sliderInput("sliderId6", tr("slider6", language()), min = 1, max = 70, value = 30)
+  })
+  
+  output$dropdown_ui <- renderUI({ 
+    selectInput( "server_id", tr("dropdown_label", language()), 
+                 choices = setNames( 
+                   c("opt1", "opt2"), 
+                   c(tr("option1", language()), tr("option2", language())) ) ) }
+    )
   # Reactive expression to generate the requested distribution ----
   # This is called whenever the inputs change. The output functions
   # defined below then use the value computed from this expression
