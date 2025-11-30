@@ -81,6 +81,54 @@ texts <- list(
     ES = "Panel 3", 
     EN = "Panel 3", 
     VAL = "Panell 3" ), 
+  plot= c(
+    ES= "Gráfico",
+    EN= "Plot", 
+    VAL= "Gràfic"),
+  plot_x= c(
+    ES= "Valor_X",
+    EN= "X_value",
+    VAL= "Valor X"
+  ),
+  plot_y= c(
+    ES= "Valor_y",
+    EN= "y_value",
+    VAL= "Valor_y"
+  ),
+  sampleStats_title = c(
+    ES = "Ejemplo de datos (medias, desviación típica):",
+    EN = "Example of data (means, std):",
+    VAL = "Exemple de dades (mitjanes, desviació típica):"
+  ),
+  
+  equation_label = c(
+    ES = "Ecuación",
+    EN = "Equation",
+    VAL = "Equació"
+  ),
+  
+  tabla= c(
+    ES= "Tabla Ejemplo: Este es un ejemplo de tabla (para ANOVA)", 
+    EN= "Example Table: This is a table example (for ANOVA)", 
+    VAL= "Taula Exemple: Esta és una taula d'exemple (per a *ANOVA)" 
+  ),
+  
+  interpretation= c(
+    ES= "Interpretación", 
+    EN= "Interpretation", 
+    VAL= "Interpretació"
+  ),
+  
+  conclusion1= c(
+    ES= "Esta es una de las conclusiones", 
+    EN= "This is one of the conclussions", 
+    VAL= "Esta és una de les conclusions"
+  ),
+  conclusion2= c(
+    ES= "Esta es otra de las conclusiones", 
+    EN= "This is another conclussion", 
+    VAL= "Esta és una altra conclusió"
+  ),
   resultsMessage = 
     c( 
       ES = "AÑADE LOS RESULTADOS QUE QUIERAS", 
@@ -210,7 +258,7 @@ ui <- fluidPage(
 # Button that show parameters section. 
 
 if(showparams) {
-  actionButton("toggleSidebar", "Parameters")
+  actionButton("toggleSidebar", textOutput("button_parameters"))
 },
 
 div(id="sidebarWrapper", class= "closed",
@@ -227,7 +275,7 @@ div(id="sidebarWrapper", class= "closed",
           condition = "input.server_id == 'opt1'", 
           uiOutput("slider1_ui"), 
           uiOutput("slider2_ui"), 
-          uiOutput("slider3_ui") ), 
+          uiOutput("slider3_ui")), 
         conditionalPanel( 
           condition = "input.server_id == 'opt2'", 
           uiOutput("slider4_ui"), 
@@ -295,22 +343,19 @@ div(id="contentWrapper",
     div(style = "margin-top: 40px;",
         tabsetPanel(
           type = "tabs",
-          tabPanel("Panel_1", 
-                   h4(HTML("Plot/Ecuations Examples:")), 
+          tabPanel(textOutput("panel1_title"),
+                   htmlOutput("plot_title"), 
                    plotOutput("Plot_ID"),
                    uiOutput("sampleStats"),
-                   h4(HTML("Example Table: This is for an ANOVA, change it according to your experiment")), verbatimTextOutput("aov"),
-                   h4(HTML("Interpretation:")), textOutput("conclusionText"), br(),
-                   h4(HTML("...")), uiOutput("resultsMessage")
+                   htmlOutput("table_name"), verbatimTextOutput("aov"),
+                   htmlOutput("interpretation_text"), textOutput("conclusionText"), br(),
+                   uiOutput("resultsMessage")
           ),
-          tabPanel("Panel_2", 
-                   h4("Insert outputs ...")
+          tabPanel(textOutput("panel2_title"), 
+    
           ),
-          tabPanel("Panel_3",
-                   h4("Insert outputs ...")
-          ),
-          tabPanel("Panel_4",
-                   h4("Insert outputs ...")
+          tabPanel(textOutput("panel3_title"),
+  
           ),
           tabPanel("Data", tableOutput("data"))
         )
@@ -338,8 +383,7 @@ div(id="contentWrapper",
      div(
        class = "text-box",
        style="max-width: 600px; margin-top: 10px; text-align: center;",
-       h5(HTML('Aplicación realizada para el proyecto docente de Javier Marín
-             Morales. Concurso a PPL C03/24, código de la plaza 7266.'))
+       htmlOutput("creditos")
      )
    )
    )
@@ -361,11 +405,34 @@ server <- function(input, output) {
   observeEvent(input$lang_es, { language("ES") }) 
   observeEvent(input$lang_en, { language("EN") }) 
   observeEvent(input$lang_va, { language("VAL") })
-
+  
   output$title <- renderText({ tr("title", language()) })
   output$explanation <- renderUI({ HTML(tr("explanation", language())) })
   output$panel1_title <- renderText({ tr("panel1", language()) })
-  output$credits <- renderUI({ HTML(tr("credits", language())) })
+  output$panel2_title <- renderText({ tr("panel2", language()) })
+  output$panel3_title <- renderText({ tr("panel3", language()) })
+
+  output$plot_title <- renderUI({
+    HTML(paste0("<h3 style='font-size:22px; font-weight:bold'>",
+                tr('plot', language()),
+                "</h3>"))
+  })
+  
+  output$table_name <- renderUI({
+    HTML(paste0("<h3 style='font-size:22px; font-weight:bold'>",
+                tr('tabla', language()),
+                "</h3>"))
+  })
+  
+  output$interpretation_text <- renderUI({
+    HTML(paste0("<h3 style='font-size:22px; font-weight:bold'>",
+                tr('interpretation', language()),
+                "</h3>"))
+  })
+  
+  output$creditos <- renderUI({ HTML(tr("credits", language())) })
+  
+  output$button_parameters <- renderText({tr("button_parameters", language())})
   output$text_downmenu <- renderText({ tr("text_downmenu", language()) })
   output$slider1_ui <- renderUI({
     sliderInput("sliderId", tr("slider1", language()), min = 1, max = 100, value = 30)
@@ -393,6 +460,7 @@ server <- function(input, output) {
                    c("opt1", "opt2"), 
                    c(tr("option1", language()), tr("option2", language())) ) ) }
     )
+  
   # Reactive expression to generate the requested distribution ----
   # This is called whenever the inputs change. The output functions
   # defined below then use the value computed from this expression
@@ -436,21 +504,26 @@ server <- function(input, output) {
   
   #Set plots parameters. This is an example of a plot that can be created.
   # HERE, YOU WILL SHOW, IF NEEDED, ANY PLOT YOU WANT IN YOUR SIMULATION. 
+  plot_x_label <- reactive({tr("plot_x" ,language())})
+  plot_y_label <- reactive({tr("plot_y", language())})
   
-  output$Plot_ID<- renderPlot({
+  output$Plot_ID <- renderPlot({
     data <- d()
     ggplot(data, aes(x = group, y = value, fill = group)) +
       geom_violin(trim = FALSE) +
       geom_jitter(width = 0.1, size = 0.5) +
-      labs(title = "Plot_Name",
-           x = "X axis",
-           y = "Y_axis") +
+      labs(
+        x = plot_x_label(),
+        y = plot_y_label()
+      ) +
       theme_minimal()
   })
+  
   
   ######## DATA DESCRIPTION #################### 
   
   #In the variable sample stats we save: data, means per group, and a message formatted that shows data (means or std)
+  
   output$sampleStats <- renderUI({
     data <- d()
     means <- data %>% group_by(group) %>% summarise(mean = mean(value))
@@ -459,8 +532,9 @@ server <- function(input, output) {
     # or max values, or medians. 
     
     withMathJax(HTML(paste0(
-      "<h5>Example of data (means, std):</h5> <br>",
-      "$$Equation:\\quad Eq1 = ", round(means$mean[means$group == "A"], 2), ",\\quad ",
+      "<h5>", tr("sampleStats_title", language()), "</h5><br>",
+      "$$", tr("equation_label", language()), ":\\quad ",
+      "Eq1 = ", round(means$mean[means$group == "A"], 2), ",\\quad ",
       "Eq2 = ", round(means$mean[means$group == "B"], 2), ",\\quad ",
       "Eq3 = ", round(means$mean[means$group == "C"], 2), "$$"
     )))
@@ -497,9 +571,9 @@ server <- function(input, output) {
   
   conclusion <- reactive({
     if (p_value() < 0.05) {
-      "This is one of the test conclusions."
+      tr("conclusion1", language())
     } else {
-      "This is one of the test conclusions."
+      tr("conclusion2", language())
     }
   })
 
