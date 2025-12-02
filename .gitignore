@@ -5,6 +5,7 @@
 .DS_Store
 .quarto
 renv/library/
+_extensions
 *.Rproj
 
 /.quarto/
