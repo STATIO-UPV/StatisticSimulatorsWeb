@@ -2,13 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/StatisticalSimulators/ANOVA/index.html"
+      "/StatisticalSimulators/ANOVA/index.html",
+      "/StatisticalSimulators/template/index.html"
     ]
   },
   {
     "listing": "/categories/estadistica-inferencial.html",
     "items": [
-      "/StatisticalSimulators/ANOVA/index.html"
+      "/StatisticalSimulators/ANOVA/index.html",
+      "/StatisticalSimulators/template/index.html"
     ]
   },
   {

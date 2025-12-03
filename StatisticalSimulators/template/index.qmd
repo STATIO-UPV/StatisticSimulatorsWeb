@@ -2,7 +2,7 @@
 title: "Template"
 description: "Esta es la template con la que diseñar los simuladores."
 date: 2025-11-02
-categories: [""]
+categories: ["Estadística inferencial"]
 image: template.png
 ---
 
