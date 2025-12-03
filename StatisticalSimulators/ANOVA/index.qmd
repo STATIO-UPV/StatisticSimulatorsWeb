@@ -6,8 +6,10 @@ categories: ["Estadística inferencial"]
 image: anova.png
 ---
 
-::: {style="height: calc(80vh - 250px);"}
-<iframe src="https://virtualpatients.webs.upv.es/StatisticalSimulators/ANOVA/appsite" title="ANOVA Unifactorial App" style="position: absolute; top: 250; left: 0; width: 100%; height: 80%; border: 0;" loading="lazy">
+This tool allows you to interactively explore One-way ANOVA. configure datasets, observe distributions, and analyze residuals in real-time.
 
-</iframe>
+::: {style="margin-top: 20px; display: flex; gap: 10px;"}
+<a href="https://github.com/STATIO-UPV/StatisticalSimulators/tree/main/ANOVA" target="_blank" class="btn btn-outline-secondary"> <i class="bi bi-github"></i> Source Code </a>
+
+<a href="simulator.html" class="btn btn-primary"> Go to Application <i class="bi bi-arrow-right-short"></i> </a>
 :::

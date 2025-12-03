@@ -25,7 +25,7 @@
     "href": "index.html#estadística-inferencial",
     "title": "STATIO",
     "section": "Estadística inferencial",
-    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemplate\n\n\nEsta es la template con la que diseñar los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#econometría",
@@ -46,7 +46,7 @@
     "href": "categories/estadistica-inferencial.html",
     "title": "Estadística inferencial",
     "section": "",
-    "text": "ANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemplate\n\n\n\nEstadística inferencial\n\n\n\nEsta es la template con la que diseñar los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "ANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "categories/econometria.html",
@@ -89,5 +89,19 @@
     "title": "Investigación Operativa",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "StatisticalSimulators/ANOVA/index.html",
+    "href": "StatisticalSimulators/ANOVA/index.html",
+    "title": "ANOVA",
+    "section": "",
+    "text": "This tool allows you to interactively explore One-way ANOVA. configure datasets, observe distributions, and analyze residuals in real-time.\n\n  Source Code \n Go to Application"
+  },
+  {
+    "objectID": "StatisticalSimulators/template/index.html",
+    "href": "StatisticalSimulators/template/index.html",
+    "title": "Template",
+    "section": "",
+    "text": "Esta es la template que se ha de utilizar para generar nuevos simuladores estadísticos.\n\n  Source Code \n Go to Application"
   }
 ]
