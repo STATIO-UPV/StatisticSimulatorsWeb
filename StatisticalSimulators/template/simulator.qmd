@@ -7,7 +7,7 @@ sidebar: false
 
 ```{=html}
 <iframe 
-  src="https://virtualpatients.webs.upv.es/StatisticalSimulators/template/appsite" 
+  src="https://statio.webs.upv.es/StatisticalSimulators/template/appsite" 
   title="ANOVA Unifactorial App" 
   style="width: 100%; height: calc(100vh - 65px); border: none; display: block;" 
   loading="lazy">
