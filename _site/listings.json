@@ -1,22 +1,6 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/StatisticalSimulators/ANOVA/index.html"
-    ]
-  },
-  {
-    "listing": "/categories/estadistica-inferencial.html",
-    "items": [
-      "/StatisticalSimulators/ANOVA/index.html"
-    ]
-  },
-  {
-    "listing": "/categories/econometria.html",
-    "items": []
-  },
-  {
-    "listing": "/categories/distribuciones.html",
+    "listing": "/categories/investigacion-operativa.html",
     "items": []
   },
   {
@@ -24,7 +8,25 @@
     "items": []
   },
   {
-    "listing": "/categories/investigacion-operativa.html",
+    "listing": "/categories/distribuciones.html",
     "items": []
+  },
+  {
+    "listing": "/categories/econometria.html",
+    "items": []
+  },
+  {
+    "listing": "/categories/estadistica-inferencial.html",
+    "items": [
+      "/StatisticalSimulators/ANOVA2/index.html",
+      "/StatisticalSimulators/ANOVA/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/StatisticalSimulators/ANOVA2/index.html",
+      "/StatisticalSimulators/ANOVA/index.html"
+    ]
   }
 ]

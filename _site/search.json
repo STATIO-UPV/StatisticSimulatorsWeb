@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "categories/investigacion-operativa.html",
+    "href": "categories/investigacion-operativa.html",
+    "title": "Investigación Operativa",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "categories/estadistica-descriptiva.html",
+    "href": "categories/estadistica-descriptiva.html",
+    "title": "Estadística descriptiva",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "categories/distribuciones.html",
+    "href": "categories/distribuciones.html",
+    "title": "Distribuciones",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Statio está desarrollado en el marco del proyecto “Desarrollo y validación de simuladores virtuales para fomentar el aprendizaje activo en el ámbito de la estadística y la investigación operativa”, impulsado por el Departamento de Estadística e Investigación Operativa Aplicadas y Calidad (DEIOAC) de la Universitat Politècnica de València (UPV). Está financiado por el Instituto de Ciencias de la Educación (ICE) mediate la convocatoria de Proyectos de Innovación y Mejora Educativa 2025 (PIME/25-26/562)."
+  },
+  {
+    "objectID": "about.html#participantes",
+    "href": "about.html#participantes",
+    "title": "About",
+    "section": "Participantes",
+    "text": "Participantes\n\nJavier Marín Morales (Coordinador)\n\nContacto: jamarmo@upv.es\n\nAlberto Altozano Fernandez\nVicente Chirivella González\nAdrian Colomer Granero\nFortunato Crespo Abril\nAna Maria Debon Aucejo\nJulia Domingo Ajenjo\nVicent Giner Bosch\nDavid Hervas Marin\nMaría Lorduy Alós\nJoaquin Martinez Minaya\nJosé Ramón Navarro Cerdan\nFrancisco Sanchez Saez\nManuel Zarzo Castelló"
+  },
+  {
+    "objectID": "categories/econometria.html",
+    "href": "categories/econometria.html",
+    "title": "Econometría",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "categories/estadistica-inferencial.html",
+    "href": "categories/estadistica-inferencial.html",
+    "title": "Estadística inferencial",
+    "section": "",
+    "text": "ANOVA2\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "STATIO",
@@ -25,7 +74,7 @@
     "href": "index.html#estadística-inferencial",
     "title": "STATIO",
     "section": "Estadística inferencial",
-    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA2\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#econometría",
@@ -40,54 +89,5 @@
     "title": "STATIO",
     "section": "Investigación Operativa",
     "text": "Investigación Operativa\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categories/estadistica-inferencial.html",
-    "href": "categories/estadistica-inferencial.html",
-    "title": "Estadística inferencial",
-    "section": "",
-    "text": "ANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "categories/econometria.html",
-    "href": "categories/econometria.html",
-    "title": "Econometría",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Statio está desarrollado en el marco del proyecto “Desarrollo y validación de simuladores virtuales para fomentar el aprendizaje activo en el ámbito de la estadística y la investigación operativa”, impulsado por el Departamento de Estadística e Investigación Operativa Aplicadas y Calidad (DEIOAC) de la Universitat Politècnica de València (UPV). Está financiado por el Instituto de Ciencias de la Educación (ICE) mediate la convocatoria de Proyectos de Innovación y Mejora Educativa 2025 (PIME/25-26/562)."
-  },
-  {
-    "objectID": "about.html#participantes",
-    "href": "about.html#participantes",
-    "title": "About",
-    "section": "Participantes",
-    "text": "Participantes\n\nJavier Marín Morales (Coordinador)\n\nContacto: jamarmo@upv.es\n\nAlberto Altozano Fernandez\nVicente Chirivella González\nAdrian Colomer Granero\nFortunato Crespo Abril\nAna Maria Debon Aucejo\nJulia Domingo Ajenjo\nVicent Giner Bosch\nDavid Hervas Marin\nMaría Lorduy Alós\nJoaquin Martinez Minaya\nJosé Ramón Navarro Cerdan\nFrancisco Sanchez Saez\nManuel Zarzo Castelló"
-  },
-  {
-    "objectID": "categories/distribuciones.html",
-    "href": "categories/distribuciones.html",
-    "title": "Distribuciones",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "categories/estadistica-descriptiva.html",
-    "href": "categories/estadistica-descriptiva.html",
-    "title": "Estadística descriptiva",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "categories/investigacion-operativa.html",
-    "href": "categories/investigacion-operativa.html",
-    "title": "Investigación Operativa",
-    "section": "",
-    "text": "No matching items"
   }
 ]
