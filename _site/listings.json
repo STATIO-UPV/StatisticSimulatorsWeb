@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/StatisticalSimulators/template/index.html",
       "/StatisticalSimulators/ANOVA/index.html"
     ]
   },
@@ -21,7 +22,9 @@
   },
   {
     "listing": "/categories/estadistica-descriptiva.html",
-    "items": []
+    "items": [
+      "/StatisticalSimulators/template/index.html"
+    ]
   },
   {
     "listing": "/categories/investigacion-operativa.html",

@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "STATIO",
     "section": "",
-    "text": "Web desarrollada por el DEIOAC de la Universitat Politècnica de València que ofrece simuladores virtuales para profundizar en conceptos de estadística e investigación operativa. [WEB EN PRUEBAS, PRUEBA JAVI 2]"
+    "text": "Web desarrollada por el DEIOAC de la Universitat Politècnica de València que ofrece simuladores virtuales para profundizar en conceptos de estadística e investigación operativa. [WEB EN DESARROLLO]"
   },
   {
     "objectID": "index.html#estadística-descriptiva",
     "href": "index.html#estadística-descriptiva",
     "title": "STATIO",
     "section": "Estadística descriptiva",
-    "text": "Estadística descriptiva\nTBD"
+    "text": "Estadística descriptiva\n\n\n\n\n\n\n\n\n\n\nTemplate\n\n\nPlantilla de los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#distribuciones",
@@ -32,7 +32,7 @@
     "href": "index.html#econometría",
     "title": "STATIO",
     "section": "Econometría",
-    "text": "Econometría\nTBD"
+    "text": "Econometría\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#investigación-operativa",
@@ -81,7 +81,7 @@
     "href": "categories/estadistica-descriptiva.html",
     "title": "Estadística descriptiva",
     "section": "",
-    "text": "No matching items"
+    "text": "Template\n\n\n\nEstadística descriptiva\n\n\n\nPlantilla de los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "categories/investigacion-operativa.html",
@@ -95,13 +95,13 @@
     "href": "StatisticalSimulators/ANOVA/index.html",
     "title": "ANOVA",
     "section": "",
-    "text": "This tool allows you to interactively explore One-way ANOVA. configure datasets, observe distributions, and analyze residuals in real-time.\n\n  Source Code \n Go to Application"
+    "text": "Description\nEsta herramienta le permite explorar interactivamente el ANOVA de un factor, configurar conjuntos de datos, analizar la tabla de ANOVA y analizar residuos en tiempo real.\nAuthors\nJavier Marín Morales\nAPP\n\n  Source Code \n Go to Application"
   },
   {
     "objectID": "StatisticalSimulators/template/index.html",
     "href": "StatisticalSimulators/template/index.html",
     "title": "Template",
     "section": "",
-    "text": "Esta es la template que se ha de utilizar para generar nuevos simuladores estadísticos.\n\n  Source Code \n Go to Application"
+    "text": "Description\nEsto es una plantilla para general nuevos simuladores\nAuthors\nJulia Domingo Ajenjo, Alberto Altozano Fernández, Javier Marín Morales\nAPP\n\n  Source Code \n Go to Application"
   }
 ]
