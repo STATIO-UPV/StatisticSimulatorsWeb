@@ -1,0 +1,23 @@
+---
+title: "Teorema Central del Límite"
+description: "Genera poblaciones de distintos tamaños provenientes de distintas distribuciones y observa cómo las medias muestrales se acumulan entorno a la media poblacional."
+date: 2026-10-02
+categories: [""]
+image: TCL.png
+---
+
+**Description**
+
+Este simulador interactivo permite explorar el **Teorema Central del Límite (TCL)**. El TCL establece que, dado un tamaño muestral suficientemente grande, la distribución de las medias muestrales seguirá una distribución normal, incluso si la población original no lo es.
+
+**Authors**
+
+Alberto Altozano Fernández
+
+**APP**
+
+::: {style="margin-top: 20px; display: flex; gap: 10px;"}
+<a href="https://github.com/STATIO-UPV/StatisticalSimulators/tree/main/TCL" target="_blank" class="btn btn-outline-secondary"> <i class="bi bi-github"></i> Source Code </a>
+
+<a href="simulator.html" class="btn btn-primary"> Go to Application <i class="bi bi-arrow-right-short"></i> </a>
+:::

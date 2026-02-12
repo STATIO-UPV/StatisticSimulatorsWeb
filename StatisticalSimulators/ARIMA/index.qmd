@@ -1,0 +1,23 @@
+---
+title: "ARIMA"
+description: "Simulación de procesos SARIMA y análisis de autocorrelación (ACF/PACF)."
+date: 2025-11-02
+categories: ["Econometría"]
+image: ARIMA.png
+---
+
+**Description**
+
+Esta herramienta permite explorar interactivamente los modelos **SARIMA** $(p,d,q)(P,D,Q)[s]$. La aplicación facilita la comprensión de cómo los parámetros estacionales y no estacionales afectan al comportamiento de una serie temporal
+
+**Authors**
+
+Joaquín Martínez-Minaya
+
+**APP**
+
+::: {style="margin-top: 20px; display: flex; gap: 10px;"}
+<a href="https://github.com/STATIO-UPV/StatisticalSimulators/tree/main/ARIMA" target="_blank" class="btn btn-outline-secondary"> <i class="bi bi-github"></i> Source Code </a>
+
+<a href="simulator.html" class="btn btn-primary"> Go to Application <i class="bi bi-arrow-right-short"></i> </a>
+:::

@@ -1,0 +1,23 @@
+---
+title: "Distribución de la Media"
+description: "Esta app muestra conceptos sobre la distribución de la media de una población."
+date: 2026-10-02
+categories: [""]
+image: DistrMedia.png
+---
+
+**Description**
+
+Esta aplicación es un simulador interactivo diseñado para visualizar y comprender la Distribución Muestral de la Media. Permite a estudiantes y usuarios generar una población objetivo basada en diferentes distribuciones (Normal, Uniforme o Asimétrica) y extraer muestras repetidas de un tamaño específico ($n$). Los usuarios pueden observar la distribución resultante de las medias muestrales, su dispersión y comparar los resultados empíricos con un modelo Normal mediante el uso de histogramas y gráficos Q-Q.
+
+**Authors**
+
+Fortunato Crespo Abril
+
+**APP**
+
+::: {style="margin-top: 20px; display: flex; gap: 10px;"}
+<a href="https://github.com/STATIO-UPV/StatisticalSimulators/tree/main/DistrMedia" target="_blank" class="btn btn-outline-secondary"> <i class="bi bi-github"></i> Source Code </a>
+
+<a href="simulator.html" class="btn btn-primary"> Go to Application <i class="bi bi-arrow-right-short"></i> </a>
+:::
