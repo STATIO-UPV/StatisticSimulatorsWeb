@@ -2,7 +2,7 @@
 title: "Distribución de la Media"
 description: "Esta app muestra conceptos sobre la distribución de la media de una población."
 date: 2026-10-02
-categories: [""]
+categories: ["Estadística inferencial"]
 image: DistrMedia.png
 ---
 
