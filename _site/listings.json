@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/StatisticalSimulators/MatrizGraficosParam/index.html",
       "/StatisticalSimulators/DistrMedia/index.html",
       "/StatisticalSimulators/PapelNormalMezcla/index.html",
       "/StatisticalSimulators/REGRESSION/index.html",
@@ -32,7 +33,9 @@
   },
   {
     "listing": "/categories/estadistica-descriptiva.html",
-    "items": []
+    "items": [
+      "/StatisticalSimulators/MatrizGraficosParam/index.html"
+    ]
   },
   {
     "listing": "/categories/investigacion-operativa.html",

@@ -3,7 +3,7 @@ title: "Gráficos Q-Q en Poblaciones Mixtas"
 description: "Visualiza cómo la mezcla de múltiples poblaciones normales altera el gráfico de probabilidad normal"
 date: 2026-10-02
 categories: ["Estadística inferencial"]
-image: TCL.png
+image: PapelNormalMezcla.png
 ---
 
 **Description**

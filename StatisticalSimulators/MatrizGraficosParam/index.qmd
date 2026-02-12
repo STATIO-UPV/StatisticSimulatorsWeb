@@ -2,8 +2,8 @@
 title: "Histogramas Y Gráficos de Cajas y Bigotes"
 description: "Genera gráficos para visualizar una población."
 date: 2026-10-02
-categories: ["Estadística Descriptiva"]
-image: TCL.png
+categories: ["Estadística descriptiva"]
+image: MatrizGraficosParam.png
 ---
 
 **Description**
