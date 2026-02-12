@@ -2,7 +2,7 @@
 title: "Template"
 description: "Plantilla de los simuladores."
 date: 2025-11-02
-categories: ["Estadística descriptiva"]
+categories: [""]
 image: template.png
 ---
 

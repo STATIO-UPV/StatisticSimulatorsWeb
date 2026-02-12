@@ -11,7 +11,7 @@
     "href": "index.html#estadística-descriptiva",
     "title": "STATIO",
     "section": "Estadística descriptiva",
-    "text": "Estadística descriptiva\n\n\n\n\n\n\n\n\n\n\nTemplate\n\n\nPlantilla de los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Estadística descriptiva\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#distribuciones",
@@ -25,14 +25,14 @@
     "href": "index.html#estadística-inferencial",
     "title": "STATIO",
     "section": "Estadística inferencial",
-    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Estadística inferencial\n\n\n\n\n\n\n\n\n\n\nDistribución de la Media\n\n\nEsta app muestra conceptos sobre la distribución de la media de una población.\n\n\n\n\n\n\nOct 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegresión\n\n\nEsta APP contiene un simulador de un modelo de regresión.\n\n\n\n\n\n\nOct 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeorema Central del Límite\n\n\nGenera poblaciones de distintos tamaños provenientes de distintas distribuciones y observa cómo las medias muestrales se acumulan entorno a la media poblacional.\n\n\n\n\n\n\nOct 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#econometría",
     "href": "index.html#econometría",
     "title": "STATIO",
     "section": "Econometría",
-    "text": "Econometría\n\n\n\n\nNo matching items"
+    "text": "Econometría\n\n\n\n\n\n\n\n\n\n\nARIMA\n\n\nSimulación de procesos SARIMA y análisis de autocorrelación (ACF/PACF).\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#investigación-operativa",
@@ -46,14 +46,14 @@
     "href": "categories/estadistica-inferencial.html",
     "title": "Estadística inferencial",
     "section": "",
-    "text": "ANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Distribución de la Media\n\n\n\nEstadística inferencial\n\n\n\nEsta app muestra conceptos sobre la distribución de la media de una población.\n\n\n\n\n\n\nOct 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nRegresión\n\n\n\nEstadística inferencial\n\n\n\nEsta APP contiene un simulador de un modelo de regresión.\n\n\n\n\n\n\nOct 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeorema Central del Límite\n\n\n\nEstadística inferencial\n\n\n\nGenera poblaciones de distintos tamaños provenientes de distintas distribuciones y observa cómo las medias muestrales se acumulan entorno a la media poblacional.\n\n\n\n\n\n\nOct 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nANOVA\n\n\n\nEstadística inferencial\n\n\n\nExplora el cálculo de un ANOVA de 1 factor.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "categories/econometria.html",
     "href": "categories/econometria.html",
     "title": "Econometría",
     "section": "",
-    "text": "No matching items"
+    "text": "ARIMA\n\n\n\nEconometría\n\n\n\nSimulación de procesos SARIMA y análisis de autocorrelación (ACF/PACF).\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -81,7 +81,7 @@
     "href": "categories/estadistica-descriptiva.html",
     "title": "Estadística descriptiva",
     "section": "",
-    "text": "Template\n\n\n\nEstadística descriptiva\n\n\n\nPlantilla de los simuladores.\n\n\n\n\n\n\nNov 2, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "categories/investigacion-operativa.html",
@@ -96,6 +96,34 @@
     "title": "ANOVA",
     "section": "",
     "text": "Description\nEsta herramienta le permite explorar interactivamente el ANOVA de un factor, configurar conjuntos de datos, analizar la tabla de ANOVA y analizar residuos en tiempo real.\nAuthors\nJavier Marín Morales\nAPP\n\n  Source Code \n Go to Application"
+  },
+  {
+    "objectID": "StatisticalSimulators/ARIMA/index.html",
+    "href": "StatisticalSimulators/ARIMA/index.html",
+    "title": "ARIMA",
+    "section": "",
+    "text": "Description\nEsta herramienta permite explorar interactivamente los modelos SARIMA \\((p,d,q)(P,D,Q)[s]\\). La aplicación facilita la comprensión de cómo los parámetros estacionales y no estacionales afectan al comportamiento de una serie temporal\nAuthors\nJoaquín Martínez-Minaya\nAPP\n\n  Source Code \n Go to Application"
+  },
+  {
+    "objectID": "StatisticalSimulators/DistrMedia/index.html",
+    "href": "StatisticalSimulators/DistrMedia/index.html",
+    "title": "Distribución de la Media",
+    "section": "",
+    "text": "Description\nEsta aplicación es un simulador interactivo diseñado para visualizar y comprender la Distribución Muestral de la Media. Permite a estudiantes y usuarios generar una población objetivo basada en diferentes distribuciones (Normal, Uniforme o Asimétrica) y extraer muestras repetidas de un tamaño específico (\\(n\\)). Los usuarios pueden observar la distribución resultante de las medias muestrales, su dispersión y comparar los resultados empíricos con un modelo Normal mediante el uso de histogramas y gráficos Q-Q.\nAuthors\nFortunato Crespo Abril\nAPP\n\n  Source Code \n Go to Application"
+  },
+  {
+    "objectID": "StatisticalSimulators/REGRESSION/index.html",
+    "href": "StatisticalSimulators/REGRESSION/index.html",
+    "title": "Regresión",
+    "section": "",
+    "text": "Description\nEsta aplicación es un simulador interactivo diseñado para visualizar cómo se comportan los modelos de regresión lineal y cómo impactan sus distintos parámetros.\nAuthors\nJosé Ramón Navarro Cerdán\nAPP\n\n  Source Code \n Go to Application"
+  },
+  {
+    "objectID": "StatisticalSimulators/TCL/index.html",
+    "href": "StatisticalSimulators/TCL/index.html",
+    "title": "Teorema Central del Límite",
+    "section": "",
+    "text": "Description\nEste simulador interactivo permite explorar el Teorema Central del Límite (TCL). El TCL establece que, dado un tamaño muestral suficientemente grande, la distribución de las medias muestrales seguirá una distribución normal, incluso si la población original no lo es.\nAuthors\nAlberto Altozano Fernández\nAPP\n\n  Source Code \n Go to Application"
   },
   {
     "objectID": "StatisticalSimulators/template/index.html",

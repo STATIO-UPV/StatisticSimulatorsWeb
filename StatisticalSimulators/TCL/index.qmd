@@ -2,7 +2,7 @@
 title: "Teorema Central del Límite"
 description: "Genera poblaciones de distintos tamaños provenientes de distintas distribuciones y observa cómo las medias muestrales se acumulan entorno a la media poblacional."
 date: 2026-10-02
-categories: [""]
+categories: ["Estadística inferencial"]
 image: TCL.png
 ---
 

@@ -2,7 +2,7 @@
 title: "Regresión"
 description: "Esta APP contiene un simulador de un modelo de regresión."
 date: 2026-10-02
-categories: [""]
+categories: ["Estadística inferencial"]
 image: REGRESSION.png
 ---
 
